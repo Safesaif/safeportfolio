@@ -1,0 +1,59 @@
+.card.survey {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+	height: auto;
+}
+
+.card.survey.expanded {
+	min-height: 650px;
+}
+
+.card.survey form {
+    margin: 10px auto auto 0;
+}
+
+.card.survey .check-form {
+	margin-left: 0;
+}
+
+.card.survey form .input-group {
+    min-height: 20px;
+	line-height: 1.5;
+    margin: 8px 0 8px;
+    padding: 0
+}
+
+.card.survey form .input-group i {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#checkForm1 .row {
+	padding:0
+}
+
+#checkForm1 .row div {
+	padding:20px
+}
+
+#checkForm1 .row div .input-group {
+	padding:0
+}
+
+.survey-submit-btn {
+	/* display: none; */
+	max-width: 120px;
+}
+
+.survey-results-area {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.survey-results-area {
+	min-height: 300px;
+	margin-top: 32px;
+}

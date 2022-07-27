@@ -1,0 +1,47 @@
+
+.topnav {
+  background-color: rgb(128, 3, 3);
+  overflow: hidden;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px; 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black !important;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /* background-color: #04AA6D; */
+  color: white ;
+}
+
+
+.centerImage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.nameheading {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 250%;
+  margin: 20px 10px 10px 100px;
+  
+}

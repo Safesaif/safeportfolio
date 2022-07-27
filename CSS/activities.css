@@ -1,0 +1,20 @@
+.select-correct-answer::after{
+    content:'✔️';
+    color:green;
+    display: inline;
+    padding-right: 15px;    
+}
+.select-wrong-answer:after{
+    content:'❌';
+    display: inline;
+    padding-right: 15px;    
+}
+
+.correct-answer:is(.check_box)::after{
+    content:'' !important; 
+
+}
+.wrong-answer:is(.check_box):after{
+    content:'' !important; 
+
+}
