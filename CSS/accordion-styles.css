@@ -1,0 +1,45 @@
+
+.accordion .card {
+    margin-bottom: 4px;
+    border-radius: 0;
+    border: 2px solid #e6e6e6;
+}
+.accordion .card .card-header {
+    font-family: Roboto, "sans-serif";
+    background-color: transparent;
+    min-height: 58px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 16px;
+    border-bottom: none;
+}
+.accordion .card .card-header button {
+    font-weight: 700;
+    color: #404040;
+    margin: 0;
+    font-size: 1.25rem;
+    height: 30px;
+    padding: 0;
+    position: relative;
+}
+.accordion .card .card-header h2 {
+    line-height: 1em;
+}
+.accordion .card .card-body {
+    padding: 16px 16px 32px;
+    line-height: 1.5;
+}
+.fa.rotate {
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    font-size: 20px;
+}
+.fa.rotate.down {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

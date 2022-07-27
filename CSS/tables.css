@@ -1,0 +1,27 @@
+.table-striped.mem thead tr {
+    border-bottom: 2px solid #e6e6e6;
+}
+.table-striped.mem tbody tr:nth-of-type(odd) {
+    background-color: #e6f3ff;
+}
+.table {
+    border: none;
+    max-width: 100%;
+}
+.table caption {
+    font-size: 1.25rem;
+    caption-side: top;
+    font-weight: 700;
+    color: #404040;
+}
+.table.in-cell-table td,
+.table.in-cell-table th {
+    border-top: none;
+}
+.table th,
+.table td {
+    padding: 16px;
+}
+.table thead tr th {
+    border-top: none;
+}
